@@ -1,0 +1,24 @@
+.category-item__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 1.25rem;
+    border-radius: 10px;
+}
+
+.category-item__container:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.category-title {
+    display: flex;
+    gap: 10px;
+}
+
+.score {
+    color: hsl(240,12%,35%);
+}
+
+.text-muted {
+    color: hsl(270,7%,71%);
+}
